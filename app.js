@@ -53,7 +53,7 @@ app.use('/BBANDS', bbands);
 app.use('/MACD', macd);
 app.use('/News', news);
 
-app.listen(8081);
+app.listen(8080);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
